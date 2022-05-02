@@ -121,7 +121,7 @@ namespace QuickLogger.NetStandard
         private static UnhandledExceptionEventHandler unhandledEventHandler;
         private string _rootPath;
 
-        private string[] libNames = { "\\x64\\QuickLogger.dll", "\\x86\\QuickLogger.dll", "x64/libquicklogger.so", "x86/libquicklogger.so" };
+        private string[] libNames = { "\\x64\\QuickLogger.dll", "\\x86\\QuickLogger.dll", "x64\\QuickLogger.dll", "x86\\QuickLogger.dll", "x64/libquicklogger.so", "x86/libquicklogger.so" };
 
         private static List<System.Delegate> delegates = new List<System.Delegate>();
 

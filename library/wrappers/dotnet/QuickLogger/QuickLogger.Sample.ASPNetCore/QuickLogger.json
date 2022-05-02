@@ -34,14 +34,15 @@
           "IncludedInfo": "[iiAppName, iiUserName, iiEnvironment, iiHost, iiPlatform, iiOSVersion, iiExceptionInfo, iiExceptionStackTrace]",
           "LogLevel": "[etHeader,etInfo,etSuccess,etWarning,etError,etCritical,etException,etDebug,etTrace,etDone,etCustom1,etCustom2]",
           "Environment": "Dev",
-          "Host": "192.168.0.69",
-          "Port": 6379,
+          "Host": "nat.habitatsoft.com",
+          "Database": 0, 
+          "Port": 63791,
           "Password": "",
           "Platform": "DotNetCore",
           "LogKey": "pisos-logstash-key",
-          "MaxSize": 1000,
           "MaxFailsToRestart": 1,
           "MaxFailsToStop": 0,
+          "UsesQueue": true,
           "OutputAsJson": true,
           "JsonOutputOptions": {
             "UseUTCTime": true

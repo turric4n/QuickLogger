@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\QuickLogger.AspNet.Extensions\QuickLogger.AspNet.Extensions.csproj" />
     <ProjectReference Include="..\QuickLogger.Extensions.NetCore\QuickLogger.Extensions.NetCore.csproj" />
   </ItemGroup>
 

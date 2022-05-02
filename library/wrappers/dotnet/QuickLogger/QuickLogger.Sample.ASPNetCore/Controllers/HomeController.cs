@@ -19,14 +19,14 @@ namespace QuickLogger.Sample.ASPNetCore.Controllers
 
         public IActionResult Index()
         {
-            using var scope = _logger.BeginScope(
-                new Dictionary<string, object>()
-                {
-                    {LoggerFields.CorrelationId, Guid.NewGuid().ToString()},
-                    {LoggerFields.AgencyId, 2345},
-                    {LoggerFields.AgentId, "334234"},
-                }); 
-            var exception = new Exception("Test exception");
+            //using var scope = _logger.BeginScope(
+            //    new Dictionary<string, object>()
+            //    {
+            //        {LoggerFields.CorrelationId, Guid.NewGuid().ToString()},
+            //        {LoggerFields.AgencyId, 2345},
+            //        {LoggerFields.AgentId, "334234"},
+            //    });
+            var exception = new Exception("Test exception 2113154674867");
             _logger.LogError(3, exception, "error");
             _logger.LogDebug("Index Called, debug");
             _logger.LogError("Index Called, error");

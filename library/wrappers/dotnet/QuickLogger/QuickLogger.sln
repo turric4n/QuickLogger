@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30204.135
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickLogger.NetStandard", "QuickLogger\QuickLogger.NetStandard.csproj", "{8760612A-A649-4752-9CC3-B7AF44F14B5A}"
 EndProject
@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickLogger.Extensions.Wrap
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickLogger.Sample.ASPNetCore", "QuickLogger.Sample.ASPNetCore\QuickLogger.Sample.ASPNetCore.csproj", "{0DDFEB61-A15B-4089-8047-855A7ECDBF75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickLogger.AspNet.Extensions", "QuickLogger.AspNet.Extensions\QuickLogger.AspNet.Extensions.csproj", "{FC7F6366-A070-459A-9BBC-E3D613C92CF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -146,6 +148,18 @@ Global
 		{0DDFEB61-A15B-4089-8047-855A7ECDBF75}.Release|x64.Build.0 = Release|Any CPU
 		{0DDFEB61-A15B-4089-8047-855A7ECDBF75}.Release|x86.ActiveCfg = Release|Any CPU
 		{0DDFEB61-A15B-4089-8047-855A7ECDBF75}.Release|x86.Build.0 = Release|Any CPU
+		{FC7F6366-A070-459A-9BBC-E3D613C92CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7F6366-A070-459A-9BBC-E3D613C92CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7F6366-A070-459A-9BBC-E3D613C92CF7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FC7F6366-A070-459A-9BBC-E3D613C92CF7}.Debug|x64.Build.0 = Debug|Any CPU
+		{FC7F6366-A070-459A-9BBC-E3D613C92CF7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FC7F6366-A070-459A-9BBC-E3D613C92CF7}.Debug|x86.Build.0 = Debug|Any CPU
+		{FC7F6366-A070-459A-9BBC-E3D613C92CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7F6366-A070-459A-9BBC-E3D613C92CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7F6366-A070-459A-9BBC-E3D613C92CF7}.Release|x64.ActiveCfg = Release|Any CPU
+		{FC7F6366-A070-459A-9BBC-E3D613C92CF7}.Release|x64.Build.0 = Release|Any CPU
+		{FC7F6366-A070-459A-9BBC-E3D613C92CF7}.Release|x86.ActiveCfg = Release|Any CPU
+		{FC7F6366-A070-459A-9BBC-E3D613C92CF7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
